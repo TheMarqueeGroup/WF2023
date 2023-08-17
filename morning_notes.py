@@ -157,6 +157,54 @@ else: #what happens if false
     
 print("this is outside the if")
 
+#%% Section 7 - Looping
+    # looping allows for code to get repeated
+        # analysis that you need to run x times --> you can loop it
+        
+        
+    # two types:
+        # for loop --> you know how many times to run
+        # while loop --> run using a condition
+      
+#%%% For loop with a data set       
+pricesUSD = [100, 50, 20, 15.5, 2.5]
+fx = 0.80
+
+pricesGBP = [] #creating an empty list
+
+for x in pricesUSD:   # x = 100, x = 50        
+    print(x)
+    print(x * fx)
+    # print("------")  
+    pricesGBP.append(x * fx) #adding new price at bottom of list     
+        
+#%% While loop        
+x = 5
+while x < 100:
+    print(x)
+    x = x + 1
+        
+#%%% For loop with your own range
+        # can create your own sequence/series of #s
+            # range(x, y)  --> x = start, y = end
+for num in range(1,50):   #  x = 1, 2, 3, .... 49
+    print(num)
+
+for num in range(100): # num = 0, 1, 2, .... 99
+    print(num)
+
+#%% Mini Assignment
+        #coffee + working session until 2:15pm
+        #assignment 1 try questions 1 to 5
+
+# Will update my notes on:        
+        # https://github.com/TheMarqueeGroup/WF2023
+
+
+
+
+
+
 
 
 
